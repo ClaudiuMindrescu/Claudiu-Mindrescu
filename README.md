@@ -13,4 +13,4 @@ Metoda data este rulata dupa chemarea lui SwapBuffers, deoarece se impune desena
 De ce este nevoie ca metoda OnResize() să fie executată cel puțin o dată?
 In timpul rularii acestei metode se adapteaza fereastra aplicatiei la dimensiunile ecranului pentru a nu aparea obiecte defecte.
 Ce reprezintă parametrii metodei CreatePerspectiveFieldOfView() și care este domeniul de valori pentru aceștia? 
-metoda include 4 parametri: fieldOfView - campul de vedere intre 0 si 180 grade; aspectRatio - raportul dintre latimea si lungimea ferestrei, poate lua orice valoare reala; nearPlane - distanta de la camera pana la sectiunea de randat; farPlane - distanta pana la capatul volumului de randat.
+Metoda include 4 parametri: fieldOfView - campul de vedere intre 0 si 180 grade; aspectRatio - raportul dintre latimea si lungimea ferestrei, poate lua orice valoare reala; nearPlane - distanta de la camera pana la sectiunea de randat; farPlane - distanta pana la capatul volumului de randat.
